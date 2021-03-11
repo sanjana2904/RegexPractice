@@ -27,7 +27,10 @@ namespace RegexPractice
             Console.WriteLine("phoneNumber result is : " + result);
 
 
-
+            string password = "sanjanaks";
+            pattern = @"/^.{8,}$";
+            result = Regex.IsMatch(password, pattern);
+            Console.WriteLine("password result is : " + result);
 
 
 
