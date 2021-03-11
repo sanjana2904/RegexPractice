@@ -21,6 +21,12 @@ namespace RegexPractice
             result = Regex.IsMatch(email, pattern);
             Console.WriteLine("email result is : " + result);
 
+            string phoneNumber = "91 9900776633";
+            pattern = @"^\d{2}\s\d{10}$";
+            result = Regex.IsMatch(phoneNumber, pattern);
+            Console.WriteLine("phoneNumber result is : " + result);
+
+
 
 
 
