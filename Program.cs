@@ -16,7 +16,15 @@ namespace RegexPractice
             result = Regex.IsMatch(lastName, pattern);
             Console.WriteLine("Last name result : " + result);
 
-            
+            string email = "sanju@gmail.com";
+            pattern = @"^[\w]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+";
+            result = Regex.IsMatch(email, pattern);
+            Console.WriteLine("email result is : " + result);
+
+
+
+
+
 
 
         }
